@@ -1,4 +1,14 @@
 ﻿@page
 @model ResumeModel
 @{
+
 }
+
+<h1>Resume for Jimmy Chang</h1>
+
+<object data="~/assets/resume.pdf" type="application/pdf"></object>
+
+<form asp-page-handler="Post">
+    <button type="submit">Download Resume</button>
+</form>
+
