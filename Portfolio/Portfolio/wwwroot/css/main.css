@@ -52,4 +52,12 @@ table {
   border-spacing: 0;
 }
 
+* {
+  outline: 1px dashed red;
+}
+
+body header nav ul li {
+  display: inline-block;
+}
+
 /*# sourceMappingURL=main.css.map */
