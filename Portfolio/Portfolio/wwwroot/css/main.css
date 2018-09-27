@@ -56,8 +56,28 @@ table {
   outline: 1px dashed red;
 }
 
+body header nav {
+  margin: 1% auto;
+}
 body header nav ul li {
   display: inline-block;
+  margin: 0 2vw;
+}
+
+body main section h1 {
+  font-size: 12vw;
+}
+body main section h2 {
+  font-size: 8vw;
+}
+body main section h3 {
+  font-size: 4vw;
+}
+body main section p {
+  font-weight: bold;
+}
+body main section ul {
+  list-style: circle;
 }
 
 /*# sourceMappingURL=main.css.map */
