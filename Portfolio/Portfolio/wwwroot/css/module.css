@@ -1,0 +1,80 @@
+﻿
+/* Header */
+
+body header nav ul li a {
+    font-size: 2.5vw;
+    text-decoration: none;
+    color: white;
+}
+
+body header nav ul li a:hover {
+    color: azure;
+}
+
+/* Content */
+
+/* All Pages */
+
+body main section h1 {
+    font-size: 5vw;
+}
+
+body main section h2 {
+    font-size: 4vw;
+}
+
+body main section p {
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+body main section ul {
+    list-style: disc;
+}
+
+/* Index */
+
+body main section h3 {
+    font-size: 3vw;
+}
+
+body main section h4 {
+    font-size: 2.5vw;
+}
+
+/* Projects */
+
+body main section a {
+    font-size: 2.5vw;
+    color: white;
+    text-decoration: none;
+    background-color: teal;
+    border-radius: 10px;
+}
+
+body main section a:hover {
+    background-color: blue;
+}
+
+body main section ul {
+    font-size: 2.5vw;
+}
+
+body main section ul li ul {
+    list-style: circle;
+}
+
+/* Resume */
+
+body main section form input {
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+body main section form input:hover {
+    background-color: white;
+    color: black;
+}

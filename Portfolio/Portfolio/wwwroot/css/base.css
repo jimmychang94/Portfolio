@@ -1,0 +1,12 @@
+﻿/** {
+    outline: 1px dashed orange;
+}*/
+
+body {
+    background-color: grey;
+}
+
+body main section {
+    width: 95%;
+    margin: auto;
+}

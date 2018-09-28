@@ -12,6 +12,7 @@ namespace Portfolio.Pages
 
         public ActionResult OnPost()
         {
+            // This is to download the resume
             return File("/assets/resume.pdf", "application/pdf", "Jimmy_Chang_Resume.pdf");
         }
     }
