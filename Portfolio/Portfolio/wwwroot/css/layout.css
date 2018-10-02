@@ -11,6 +11,15 @@ body header nav {
     height: 50%;
 }
 
+body header nav img {
+    display: inline-block;
+    width: 7.5%;
+}
+
+body header nav ul {
+    display: inline;
+}
+
 body header nav ul li {
     margin: 2% 0 2% 2%;
     display: inline-block;

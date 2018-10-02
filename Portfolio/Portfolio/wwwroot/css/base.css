@@ -6,6 +6,10 @@ body {
     background-color: grey;
 }
 
+body header {
+    background-color: darkblue;
+}
+
 body main section {
     width: 95%;
     margin: auto;

@@ -1,6 +1,8 @@
 ﻿
 /* Header */
 
+
+
 body header nav ul li a {
     font-size: 2.5vw;
     text-decoration: none;
@@ -8,6 +10,8 @@ body header nav ul li a {
 }
 
 body header nav ul li a:hover {
+    border-radius: 1vw 1vw 0 0;
+    background-color: brown;
     color: azure;
 }
 
@@ -49,7 +53,7 @@ body main section a {
     color: white;
     text-decoration: none;
     background-color: teal;
-    border-radius: 10px;
+    border-radius: 0.5vw;
 }
 
 body main section a:hover {
@@ -66,15 +70,31 @@ body main section ul li ul {
 
 /* Resume */
 
-body main section form input {
+body main section form button {
+    font-size: 2.5vw;
     background-color: navy;
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 0.5vw;
     text-decoration: none;
 }
 
-body main section form input:hover {
+body main section form button:hover {
     background-color: white;
     color: black;
+}
+
+
+/* Footer */
+
+footer a {
+    font-size: 2.5vw;
+    color: white;
+    text-decoration: none;
+    background-color: teal;
+    border-radius: 0.5vw;
+}
+
+footer a:hover {
+    background-color: blue;
 }
