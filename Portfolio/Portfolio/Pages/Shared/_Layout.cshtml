@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="~/css/base.css" />
     <link rel="stylesheet" href="~/css/layout.css" />
     <link rel="stylesheet" href="~/css/module.css" />
+    <link href="https://fonts.googleapis.com/css?family=Acme|Changa|Stoke" rel="stylesheet">
     <title>Jimmy Chang</title>
 </head>
 <body>
     <header>
         <nav>
-            <img src="~/assets/JCLogo.png" />
+            <a asp-page="/Index"><img src="~/assets/JCLogo.png" /></a>
             <ul>
                 <li>
                     <a asp-page="/Index">Home</a>
@@ -35,9 +36,11 @@
         </section>
     </main>
     <footer>
-        @* Use Font Awesome to get some favicons for Linkedin and Github *@
-        <a href="https://github.com/jimmychang94/">Github</a>
-        <a href="https://www.linkedin.com/in/jimmy-chang/">Linkedin</a>
+        <section>
+            @* Use Font Awesome to get some favicons for Linkedin and Github *@
+            <a href="https://github.com/jimmychang94/">Github</a>
+            <a href="https://www.linkedin.com/in/jimmy-chang/">Linkedin</a>
+        </section>
     </footer>
 </body>
 </html>
