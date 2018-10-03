@@ -1,0 +1,219 @@
+﻿
+/* Header */
+
+body header nav ul li a {
+    font-size: 2.5vw;
+    text-decoration: none;
+    color: #015249;
+}
+
+body header nav ul li a:hover {
+    border-radius: 1vw;
+    background-color: #85858F;
+}
+
+/* Content */
+
+/* All Pages */
+
+body main section h1 {
+    font-size: 5vw;
+    font-family: 'Stoke', serif;
+}
+
+body main section h2 {
+    font-size: 4vw;
+}
+
+body main section p {
+    font-size: 2.5vw;
+}
+
+body main section ul {
+    list-style: disc;
+}
+
+/* Index */
+
+body main section h3 {
+    font-size: 3vw;
+}
+
+body main section h4 {
+    font-size: 2.5vw;
+}
+
+/* Projects */
+
+body main section article a {
+    font-size: 2.5vw;
+    color: #77482C;
+    text-decoration: none;
+    background-color: #D0C29F;
+    border-radius: 0.5vw;
+}
+
+body main section article a:hover {
+    background-color: #77482C;
+    color: #D0C29F;
+}
+
+body main section article ul {
+    font-size: 2.5vw;
+}
+
+body main section article ul li ul {
+    list-style: circle;
+}
+
+/* Resume */
+
+body main section form button {
+    font-size: 2.5vw;
+    background-color: #D0C29F;
+    color: #77482C;
+    border: none;
+    border-radius: 0.5vw;
+    text-decoration: none;
+}
+
+body main section form button:hover {
+    background-color: #77482C;
+    color: #D0C29F;
+}
+
+
+/* Footer */
+
+footer a {
+    font-size: 2.5vw;
+    background-color: #D0C29F;
+    color: #77482C;
+    text-decoration: none;
+    border-radius: 1vw;
+}
+
+footer a:hover {
+    background-color: #77482C;
+    color: #D0C29F;
+}
+
+@media only screen and (min-width: 900px)
+{
+
+    /* Header */
+
+    body header nav ul li a {
+        font-size: 2vw;
+    }
+
+    /* Content */
+
+    /* All Pages */
+
+    body main section h1 {
+        font-size: 4vw;
+    }
+
+    body main section h2 {
+        font-size: 3vw;
+    }
+
+    body main section p {
+        font-size: 2vw;
+    }
+
+    /* Index */
+
+    body main section article h3 {
+        font-size: 2.5vw;
+    }
+
+    body main section article h4 {
+        font-size: 2vw;
+    }
+
+    /* Projects */
+
+    body main section article a {
+        font-size: 2vw;
+    }
+
+    body main section article ul {
+        font-size: 2vw;
+    }
+
+    /* Resume */
+
+    body main section form button {
+        font-size: 2vw;
+    }
+
+    /* Footer */
+
+    body footer a {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (min-width: 1200px)
+{
+
+    /* Header */
+
+    body header nav ul li a {
+        font-size: 1vw;
+    }
+
+    body header nav ul li a:hover {
+        border-radius: 10px;
+    }
+
+    /* Content */
+
+    /* All Pages */
+
+    body main section h1 {
+        font-size: 2vw;
+    }
+
+    body main section h2 {
+        font-size: 1.5vw;
+    }
+
+    body main section p {
+        font-size: 1vw;
+    }
+
+    /* Index */
+
+    body main section article h3 {
+        font-size: 1.25vw;
+    }
+
+    body main section article h4 {
+        font-size: 1vw;
+    }
+
+    /* Projects */
+
+    body main section article a {
+        font-size: 1vw;
+    }
+
+    body main section article ul {
+        font-size: 1vw;
+    }
+
+    /* Resume */
+
+    body main section form button {
+        font-size: 1vw;
+    }
+
+    /* Footer */
+
+    body footer a {
+        font-size: 1vw;
+    }
+}

@@ -4,21 +4,43 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jimmy Chang's Portfolio</title>
+    <link rel="stylesheet" href="~/css/reset.css" />
+    <link rel="stylesheet" href="~/css/base.css" />
+    <link rel="stylesheet" href="~/css/layout.css" />
+    <link rel="stylesheet" href="~/css/module.css" />
+    <link href="https://fonts.googleapis.com/css?family=Acme|Changa|Stoke" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <title>Jimmy Chang</title>
 </head>
 <body>
     <header>
         <nav>
+            <a asp-page="/Index"><img src="~/assets/JCLogo.png" /></a>
             <ul>
-
+                <li>
+                    <a asp-page="/Index">Home</a>
+                </li>
+                <li>
+                    <a asp-page="/Projects">Projects</a>
+                </li>
+                <li>
+                    <a asp-page="/Resume">Resume</a>
+                </li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <img src="~/assets/stEdwards.jpg" alt="St Edwards State Park" />
         <section>
             @RenderBody()
         </section>
     </main>
+    <footer>
+        <section>
+            <a href="https://github.com/jimmychang94/"><i class="fab fa-github"></i> Github</a>
+            <a href="https://www.linkedin.com/in/jimmy-chang/"><i class="fab fa-linkedin"></i> Linkedin</a>
+        </section>
+    </footer>
 </body>
 </html>

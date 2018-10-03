@@ -1,0 +1,15 @@
+﻿@page
+@model ResumeModel
+@{
+
+}
+
+<h1>Resume</h1>
+
+<form asp-page-handler="Post">
+    <button type="submit">Download</button>
+</form>
+
+
+<object data="~/assets/Resume.pdf" type="application/pdf"></object>
+

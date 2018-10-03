@@ -1,0 +1,42 @@
+﻿/** {
+    outline: 1px dashed orange;
+}*/
+
+* {
+    font-family: 'Acme', Helvetica, sans-serif;
+}
+
+body {
+    background-color: #4CB5F5;
+    background-image: linear-gradient( 135deg, #4CB5F5 30%, #4CFF00 );
+}
+
+body header {
+    background-color: #B7B8B6;
+}
+
+body main section {
+    width: 95%;
+    margin: auto;
+}
+
+body footer {
+    background-color: #015249;
+}
+
+a, button {
+    font-family: 'Changa', Helvetica, sans-serif;
+}
+
+@media only screen and (min-width: 900px)
+{
+    body main section {
+        width: 75%;
+        margin: auto;
+    }
+
+    body footer section {
+        width: 75%;
+        margin: auto;
+    }
+}

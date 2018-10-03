@@ -1,0 +1,175 @@
+﻿
+/*Header*/
+
+body header {
+    width: 100%;
+}
+
+body header nav {
+    padding: 2%;
+    width: 95%;
+}
+
+body header nav a img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 7.5%;
+}
+
+body header nav ul {
+    width: 80%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+body header nav ul li {
+    padding: 2%;
+    display: inline-block;
+}
+
+body header nav ul li a {
+    padding: 20%;
+}
+
+/* Content */
+
+/* All */
+
+body main img {
+    width: 100%;
+}
+
+body main section h1, body main section h2 {
+    margin: 2% 0;
+}
+
+body main section article {
+    margin: 4% 0;
+}
+
+body main section ul {
+    margin-left: 5%;
+}
+
+body main section ul li {
+    margin: 2%;
+    padding-left: 1%;
+}
+
+/* Index */
+
+body main section article h3 {
+    margin: 1% 2%;
+}
+
+
+/* Projects Page */
+
+body main section a {
+    display: inline-block;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
+/* Resume Page */
+
+body main section form button {
+    padding: 1.5%;
+}
+
+body main section object {
+    margin: 3% 0;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Footer */
+
+body footer {
+    padding: 3%;
+}
+
+body footer a {
+    margin: 2%;
+    padding: 1% 1.5%;
+}
+
+@media only screen and (min-width: 900px)
+{
+    /* Header */
+
+    body header nav {
+        width: 75%;
+        margin: auto;
+    }
+
+    body header nav a img {
+        width: 5%;
+    }
+
+    /* Content */
+
+    /* All */
+
+    body main section h1, body main section h2 {
+        margin: 1% 0;
+    }
+
+    body main section article {
+        margin: 2% 0;
+    }
+
+    body main section ul {
+        margin-left: 2%;
+    }
+
+    body main section ul li {
+        margin: 1%;
+        padding-left: 0.5%;
+    }
+
+    /* Resume */
+
+    body main section form button {
+        padding: 0.5% 1%;
+    }
+    
+    body main section object {
+        margin: 2% 0;
+    }
+
+    /* Footer */
+
+    body footer {
+        padding: 2%;
+    }
+
+    body footer a {
+        padding: 0% 1.5%;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    /* Header */
+
+    body header {
+        position: absolute;
+    }
+
+    body header nav {
+        padding: 0%;
+    }
+
+    body header nav ul li a {
+        padding: 5%;
+    }
+
+    body header nav a img {
+        width: 2.5%;
+    }
+
+    /* Content */
+
+    /* Resume */
+
+}
