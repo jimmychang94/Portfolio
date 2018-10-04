@@ -28,7 +28,7 @@ a, button {
     font-family: 'Changa', Helvetica, sans-serif;
 }
 
-@media only screen and (min-width: 900px)
+@media only screen and (min-width: 850px)
 {
     body main section {
         width: 75%;
