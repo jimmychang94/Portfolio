@@ -43,10 +43,6 @@ body main section h1, body main section h2 {
     margin: 2% 0;
 }
 
-body main section article {
-    margin: 4% 0;
-}
-
 body main section ul {
     margin-left: 5%;
 }
@@ -56,19 +52,27 @@ body main section ul li {
     padding-left: 1%;
 }
 
-/* Index */
+/* Index + Projects */
+
+body main section article {
+    margin: 4% 0;
+}
 
 body main section article h3 {
-    margin: 1% 2%;
+    margin: 3% 2% 1% 2%;
 }
 
 
-/* Projects Page */
+/* Projects */
 
 body main section a {
     display: inline-block;
     margin-bottom: 2%;
     padding: 1%;
+}
+
+body main section article div {
+    margin-left: 5%;
 }
 
 /* Resume Page */
@@ -86,6 +90,7 @@ body main section object {
 /* Footer */
 
 body footer {
+    margin-top: 3%;
     padding: 3%;
 }
 
@@ -94,7 +99,7 @@ body footer a {
     padding: 1% 1.5%;
 }
 
-@media only screen and (min-width: 900px)
+@media only screen and (min-width: 850px)
 {
     /* Header */
 
@@ -115,17 +120,19 @@ body footer a {
         margin: 1% 0;
     }
 
-    body main section article {
-        margin: 2% 0;
-    }
-
     body main section ul {
-        margin-left: 2%;
+        margin-left: 4%;
     }
 
     body main section ul li {
         margin: 1%;
         padding-left: 0.5%;
+    }
+
+    /* Index + Projects */
+
+    body main section article {
+        margin: 4% 0;
     }
 
     /* Resume */
@@ -170,6 +177,9 @@ body footer a {
 
     /* Content */
 
-    /* Resume */
+    /* Index + Projects */
 
+    body main section article {
+        margin: 2% 0;
+    }
 }
