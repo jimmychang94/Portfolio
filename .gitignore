@@ -411,3 +411,7 @@ ASALocalRun/
 
 
 # End of https://www.gitignore.io/api/linux,macos,windows,visualstudio,visualstudiocode
+
+
+# User added ignores:
+**/profile.arm.json
